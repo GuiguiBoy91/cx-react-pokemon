@@ -1,0 +1,183 @@
+body{
+	background-color: #222222;
+	font-family: "Calibri";
+	background-image: url("images/pokebackgroundDark.png");
+	background-repeat: no-repeat;
+	background-position: bottom -20% right -10%;
+	background-attachment: fixed;
+}
+
+.container{
+	margin-top: 5%;
+	text-align: center;
+}
+
+.div_theme{
+	position: absolute;
+	top : 20px;
+	right : 20px;
+	padding : 10px 30px;
+	font-size: 16px;
+	color: #FFF;
+	background-color: red;
+	font-weight: bold;
+}
+
+.div_theme:hover{
+	color: red;
+	background-color: #FFF;
+	box-shadow: 10px 5px 5px black;
+}
+
+.div_theme:active{
+	box-shadow: 10px 5px 5px black inset;
+}
+
+
+.img_entete{
+	height: 100px;
+	margin-bottom: 100px;
+}
+
+.search{
+	margin-bottom: 50px;
+	background-color: #222222;
+	color : #FFF;
+	font-size: 16px;
+  	width: 30%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+ 	box-sizing: border-box;
+  	border: none;
+  	border-bottom: 2px solid #FFF;
+}
+
+.pokemons{
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding : 2%;
+}
+
+.pokemon{
+	height: 250px;
+	width: 15%;
+	border-radius: 5%;
+	background-color: #444444;
+	margin : 0.75%;
+	float: left;
+}
+
+.pokemon:hover{
+	cursor: pointer;
+	box-shadow: 10px 5px 5px black;
+}
+
+.pokemon:active{
+	box-shadow: 10px 5px 5px black inset;
+}
+
+.img_pokemon{
+	height: 70%;
+	width : 100%;
+}
+
+.lib_pokemon{
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color : #FFF;
+	padding : 5%;
+	height: 30%;
+}
+
+.croix{
+	cursor: pointer;
+	margin-left: 20px;
+	font-size: 20px;
+	color: #FFF;
+}
+
+/* DEUXIEME PAGE (POKEMON) */
+.entete{
+	white-space: nowrap;
+	text-align: center;
+}
+
+.left_arrow{
+	position: absolute;
+	cursor: pointer;
+	width: 50px;
+	left : 10%;
+	top : 100px;
+}
+
+
+.TitrePoke{
+	color: #FFF;
+	font-size: 50px;
+}
+
+.imgPoke{
+	position: absolute;
+	top:2%;
+	right : 10%;
+	
+}
+
+.Identite{
+	text-align: left;
+	color : #FFF;
+	font-size: 30px;
+	margin:0;
+}
+
+hr{color:#FFF;}
+
+.block{
+	margin: 5% 10% 5% 10%;
+}
+
+.block.b1{
+	padding-top: 300px;
+}
+
+.block2{
+	float: left;
+	width: 50%;
+}
+
+.tabPoke{
+	color : #FFF;
+	font-size: 20px;
+	text-align: left;
+	width: 100%;
+}
+
+.trPoke1{
+	background-color: #444444;
+	height: 50px;
+	width: 100%;
+}
+
+.trPoke2{
+	height: 50px;
+	width: 100%;
+}
+
+.Attaques{
+	width: 23%;
+	border-radius: 5%;
+	background-color: #444444;
+	margin : 1%;
+	float: left;
+}
+
+.pPoke{
+	color : #FFF;
+	font-size: 18px;
+}
+
+.fontPoke{
+	font-weight: bold;
+}
