@@ -54,7 +54,7 @@ class App extends React.Component {
 
   render() {
     return ( 
-      this.state.pokemon === null ?
+      this.state.pokemon.length === 0 ?
       <div className="container">
         <div className='div_theme' onClick={() => this.changeStyle()}>LIGHT THEME</div>
         <header className="App-header">
